@@ -1,0 +1,4 @@
+1. How many letters, how many sounds?
+There are 26 letters in the English alphabet
+ABCJDFGHIJKLMNOPQRSTUVWXYZ
+There are five vowel/ˈvaʊ.əl/ letters.
