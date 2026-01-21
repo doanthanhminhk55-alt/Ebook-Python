@@ -30,3 +30,23 @@ def CyclicRotation(A, K):
     return tail + head
 
 CyclicRotation([3,4,5,6,7], 2)
+
+def OddOccurencesInArray(a):
+
+    unmatched = set()
+    for e in a:
+        try:
+            unmatched.remove(e)
+        except KeyError:
+            unmatched.add(e)
+
+    return unmatched.pop()
+
+OddOccurencesInArray([9, 3, 9, 3, 9, 7, 9])
+
+def FrogJmp(x, y, d):
+    quot, rem = divmod(y - x, d)
+
+    return quot + 1 if rem != 0 else quot
+
+FrogJmp(10, 85, 30)
